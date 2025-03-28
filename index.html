@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A Sign-Up Form is a user interface component that allows new users to create an account on a website or application. It typically collects essential information such as name, email, password, and sometimes additional details like phone number or address. The form often includes input validation, password strength indicators, and CAPTCHA verification to ensure security. Once submitted, the data is processed and stored, granting users access to the platform.">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/x-icon" href="https://cdn4.vectorstock.com/i/1000x1000/91/33/company-profile-icon-flat-design-vector-6269133.jpg"/>
     <title>Sign Up Form</title>
 </head>
 <body>
@@ -36,13 +37,13 @@
                 <input type="radio" id="female" name="gender"/>
             </fieldset>
             <div id="sharingDiv">
-                <input id="sharingYN" type="checkbox"/>
+                <input id="sharingYN" type="checkbox" required/>
                 <label>Share my registration data with company's content providers for marketing purposes.</label>
             </div>
             <div class="cls-iam-not">
                 <div>
-                    <input type="checkbox" id="iamNotRobot"/>
-                    <label>I'm not a Robot</label>
+                    <input type="checkbox" id="iamNotRobot" required/>
+                    <label for="iamNotRobot">I'm not a Robot</label>
                 </div>
                 <img src="https://c8.alamy.com/comp/2H5R76D/captcha-vector-icon-recaptcha-i-am-not-a-robot-isolated-security-symbol-vector-internet-generate-website-technology-computer-code-illustration-2H5R76D.jpg" class="icon"/>
             </div>

@@ -71,7 +71,7 @@ button{
     border-radius: 10px;
 }
 #sharingDiv{
-    width:500px;
+    display: flex;
     text-align:justify;
     margin:10px
 }
